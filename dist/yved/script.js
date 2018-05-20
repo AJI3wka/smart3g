@@ -1,0 +1,1 @@
+$(document).ready(function(){function e(){n=1,$(".yved:nth-child("+n+")").fadeIn(500).delay(7e3).fadeOut(500)}if(window.innerWidth>1e3){var n=0;setTimeout(function(){setInterval(function(){n+=1,$(".yved:nth-child("+n+")").fadeIn(500).delay(7e3).fadeOut(500)},5e4),e()},2e4)}});
