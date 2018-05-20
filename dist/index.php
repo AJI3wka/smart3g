@@ -58,7 +58,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    font-size: 42px;
    line-height: 36px;
    }
-   }@media screen and (min-width:550px) and (max-width:1990px) {
+	.main_carousel_holder{
+		display: none;
+	}
+   }
+   @media screen and (min-width:550px) and (max-width:1990px) {
    .ziblock  {
    display: none;
    }
