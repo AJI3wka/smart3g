@@ -70,9 +70,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	/*display: none;*/
     }
     .gallery_section p{
-           font-size: 20px;
-           line-height: 66px;
-            margin: 0 0 0px;
+              font-size: 40px;
+                margin: 0 0 50px;
+                line-height: 65px;
     }
     .rewiews_section h2{
         font-size: 37px;
@@ -81,6 +81,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             font-size: 42px;
             line-height: 36px;
     }
+    .carousel_block .slick-slide .slick-current .slick-active{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:550px) and (max-width:1990px) {
